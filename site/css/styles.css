@@ -1,0 +1,203 @@
+body {
+	font-size: 16px;
+	background-color: white;
+	font-family: Georgia, serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #D8BFD8;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 0px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-inverse .navbar-brand {
+  color: black;
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  height: 80px;
+  padding-top: 30px;
+}
+.content-box {
+	background-color: #E6E6FA;
+	margin: 25px auto 10px;
+	padding: 10px;
+	border: 2px solid black;
+	height: 1000px;
+}
+.container {
+	width: 100%;
+	position: relative;
+}
+.row {
+	width: 100%;
+	margin: auto;
+}
+p {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	background-color: white;
+}
+#collapsable-nav .navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+	#navbar-list {
+		background-color: #D8BFD8;
+	}
+}
+
+@media (max-width: 767px) {s
+.visible-lg, .visible-md, .visible-sm, .visible-xs {
+	display: block!important;
+}
+ hr {
+ 	margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+ }
+ .navbar-nav {
+    margin: 0 -15px;
+    background-color: white;
+}
+}
+
+/** HEADER **/
+/*.container {
+  background-color: #D8BFD8;
+  border-radius: 0;
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-toggle collapsed {
+	background-color: white;
+}
+.navbar-header {
+	height: 90px;
+	background-color: #D8BFD8
+}
+.navbar-inverse .navbar-brand {
+  color: black;
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  height: 80px;
+  padding-top: 30px;
+}
+.collapsable-nav {
+	border: 1px solid black;
+}
+
+
+.navbar-collapse {
+	padding-top: 20px;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+.container h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	background-color: white;
+}
+
+.row {
+	width: 100%;
+	margin: auto;
+}
+p {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.content-box {
+	background-color: #E6E6FA;
+	margin: 25px auto 10px;
+	padding: 10px;
+	border: 2px solid black;
+	height: 1000px;
+}
+
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		height: 80px;
+	}
+}
+
